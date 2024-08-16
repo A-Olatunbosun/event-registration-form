@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(94, 94, 94);
+}
+
+main {
+  width: 40%;
+  margin: 25px auto;
+  border: 1px solid rgb(128, 128, 128);
+  padding: 45px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: rgb(76, 76, 76);
+}
+
+hr {
+  border: 1px solid rgb(76, 76, 76);
+}
+
+span {
+  font-weight: 700;
+  color: rgb(76, 76, 76);
+}
+
+input,
+select {
+  padding: 8px;
+  border: 1px solid rgb(128, 128, 128);
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(94, 94, 94);
+}
+
+input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(94, 94, 94);
+}
+
+input:focus,
+select:focus {
+  background-color: rgb(229, 253, 253);
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+form > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.names,
+.contact {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.names div,
+.contact div {
+  flex: 1;
+}
+
+.names div,
+.contact div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.lastname {
+  visibility: hidden;
+}
+
+.radio_button {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.options {
+  display: flex;
+  gap: 14px;
+}
+
+.options > label {
+  margin-top: 14px;
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 16px;
+  font-size: 16px;
+  font-family: "Roboto", Arial, sans-serif;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.sec_btn {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+
+.pry_btn {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Registration Form</title>
+    <link rel="stylesheet" href="/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main>
+      <div class="heading">
+        <h1>Event Registration Form</h1>
+        <hr />
+        <p>
+          <span>Welcome!</span> If you would like to take part in our event,
+          please fillin your details in the form below and you will be
+          automatically registered.
+          <span
+            >Event registration must be completed at least 3 days prior to the
+            event.</span
+          >
+        </p>
+      </div>
+
+      <form action="">
+        <div class="names">
+          <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" placeholder="First Name" />
+          </div>
+
+          <div>
+            <label for="name" class="lastname">Name</label>
+            <input type="text" name="name" placeholder="Last  Name" />
+          </div>
+        </div>
+
+        <div class="contact">
+          <div>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              placeholder="willsmith@gmail.com"
+            />
+          </div>
+
+          <div>
+            <label for="Phone">Phone</label>
+            <input type="tel" name="phone" placeholder="+2348072177701" />
+          </div>
+        </div>
+
+        <div>
+          <label for="friendsComing"
+            >How many friends will you bring along?</label
+          >
+          <select name="friendsComing" id="">
+            <option>I come alone</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="arrivalTime">When will you arrive?</label>
+          <input type="time" name="arrivalTime" id="" />
+        </div>
+
+        <div class="options">
+          <label for="eventSource">How did you hear about this event</label>
+          <div class="radio_button">
+            <input type="radio" name="eventSource" id="" />
+            <label for="">Word of mouth</label>
+          </div>
+
+          <div class="radio_button">
+            <input type="radio" name="eventSource" id="" />
+            <label for="">I've participated in the past</label>
+          </div>
+
+          <div class="radio_button">
+            <input type="radio" name="eventSource" id="" />
+            <label for="">Advertisement</label>
+          </div>
+
+          <div class="radio_button">
+            <input type="radio" name="eventSource" id="" />
+            <label for="">Internet Search</label>
+          </div>
+
+          <div class="radio_button">
+            <input type="radio" name="eventSource" id="" />
+            <label for="">Facebook</label>
+          </div>
+
+          <div class="radio_button">
+            <input type="radio" name="eventSource" id="" />
+            <label for="">Twitter</label>
+          </div>
+        </div>
+
+        <div class="options">
+          <label for="favouriteFood"
+            >Please choose your favourite food among the following</label
+          >
+
+          <div class="radio_button">
+            <input type="radio" name="favouriteFood" id="" />
+            <label for="">Fish</label>
+          </div>
+
+          <div class="radio_button">
+            <input type="radio" name="favouriteFood" id="" />
+            <label for="">Fruit Salad</label>
+          </div>
+
+          <div class="radio_button">
+            <input type="radio" name="favouriteFood" id="" />
+            <label for="">Pizza</label>
+          </div>
+        </div>
+
+        <div class="options">
+          <label for="favouriteDrink"
+            >Please choose your favourite drink among the following</label
+          >
+          <div class="radio_button">
+            <input type="radio" name="favouriteDrink" id="" />
+            <label for=""> Wine</label>
+          </div>
+
+          <div class="radio_button">
+            <input type="radio" name="favouriteDrink" id="" />
+            <label for="">Liquor</label>
+          </div>
+
+          <div class="radio_button">
+            <input type="radio" name="favouriteDrink" id="" />
+            <label for="">Beer</label>
+          </div>
+
+          <div class="radio_button">
+            <input type="radio" name="favouriteDrink" id="" />
+            <label for="">Vodka</label>
+          </div>
+        </div>
+
+        <div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.5166504823937!2d3.3557855748323253!3d6.582511093411036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9212d5d6772d%3A0x670723631fb2a12e!2sRadisson%20Hotel%20Lagos%20Ikeja!5e0!3m2!1sen!2sng!4v1723719775600!5m2!1sen!2sng"
+            width="100%"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <p>42/44 Isaac John St, Ikeja GRA, Lagos 102215, Lagos</p>
+
+        <div class="btns">
+          <button type="" class="sec_btn">Start Again</button>
+          <button type="submit" class="pry_btn">I'm In</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
